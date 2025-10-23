@@ -19,10 +19,10 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projetos" className="py-28 text-center bg-background">
+    <section id="projetos" className="py-20 text-center bg-background">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-primary mb-12">
-          Projetos Missionários
+        <h2 className="text-4xl font-playfair font-bold text-primary mb-12">
+          Missão em Ação
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {projects.map((project, index) => (

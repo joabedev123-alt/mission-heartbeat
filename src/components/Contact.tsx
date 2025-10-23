@@ -23,13 +23,12 @@ const Contact = () => {
   };
 
   return (
-    <section id="contato" className="py-28 text-center bg-background">
-      <h2 className="text-4xl font-bold text-primary mb-6">
-        Entre em Contato
+    <section id="contato" className="py-20 text-center bg-primary">
+      <h2 className="text-4xl font-playfair font-bold text-primary-foreground mb-6">
+        Participe Conosco
       </h2>
-      <p className="text-muted-foreground mb-10">
-        Deseja participar de um culto, apoiar ou levar nossa missão à sua
-        cidade?
+      <p className="text-primary-foreground/90 mb-10">
+        Quer participar ou levar nossa missão até sua cidade? Entre em contato.
       </p>
       <form
         onSubmit={handleSubmit}
@@ -67,9 +66,9 @@ const Contact = () => {
         />
         <Button
           type="submit"
-          className="bg-primary text-primary-foreground hover:bg-accent hover:text-accent-foreground"
+          className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold"
         >
-          Enviar
+          Enviar Mensagem
         </Button>
       </form>
     </section>

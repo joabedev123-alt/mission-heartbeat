@@ -13,28 +13,27 @@ const Hero = () => {
         alt="Comunidade em adoração"
       />
       <div className="relative z-10 text-white max-w-3xl px-6 animate-fade-up">
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
-          Vivendo a missão. Transformando vidas.
+        <h1 className="text-5xl md:text-6xl font-playfair font-bold mb-6 leading-tight">
+          Levando fé e esperança a todos os lugares
         </h1>
-        <p className="text-lg md:text-xl text-gray-200 mb-10">
-          Conheça nossos cultos, projetos missionários e o trabalho de
-          transformação que acontece em cada cidade.
+        <p className="text-lg md:text-xl text-gray-200 mb-10 font-poppins font-light">
+          Uma missão que conecta pessoas e comunidades através do amor e da palavra.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button
             asChild
             size="lg"
-            className="bg-accent text-accent-foreground hover:bg-accent/90"
+            className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold"
           >
-            <a href="#eventos">Ver Eventos</a>
+            <a href="#eventos">Próximos Cultos</a>
           </Button>
           <Button
             asChild
             size="lg"
             variant="outline"
-            className="border-2 border-white text-white hover:bg-white hover:text-primary"
+            className="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold"
           >
-            <a href="#sobre">Saiba Mais</a>
+            <a href="#sobre">Conheça a Missão</a>
           </Button>
         </div>
       </div>

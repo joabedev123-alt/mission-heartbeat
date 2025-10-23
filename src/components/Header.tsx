@@ -23,11 +23,11 @@ const Header = () => {
           <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-xl">✝</span>
           </div>
-          <span className="text-2xl font-semibold text-primary tracking-tight">
+          <span className="text-2xl font-semibold font-playfair text-primary tracking-tight">
             Missão Esperança
           </span>
         </div>
-        <nav className="hidden md:flex gap-6 font-medium text-primary">
+        <nav className="hidden md:flex gap-6 font-medium font-poppins text-primary">
           <a href="#inicio" className="hover:text-accent transition">
             Início
           </a>
@@ -36,6 +36,9 @@ const Header = () => {
           </a>
           <a href="#ministerios" className="hover:text-accent transition">
             Ministérios
+          </a>
+          <a href="#congregacoes" className="hover:text-accent transition">
+            Congregações
           </a>
           <a href="#eventos" className="hover:text-accent transition">
             Eventos
@@ -50,7 +53,7 @@ const Header = () => {
             Contato
           </a>
         </nav>
-        <Button className="bg-primary text-primary-foreground hover:bg-accent hover:text-accent-foreground">
+        <Button className="bg-primary text-primary-foreground hover:bg-accent hover:text-accent-foreground font-semibold">
           Ver Agenda
         </Button>
       </div>

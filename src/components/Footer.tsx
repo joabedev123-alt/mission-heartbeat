@@ -6,16 +6,19 @@ const Footer = () => {
           <div className="h-10 w-10 rounded-lg bg-accent mx-auto mb-4 flex items-center justify-center">
             <span className="text-accent-foreground font-bold text-xl">✝</span>
           </div>
-          <p>Vivendo a missão com propósito e fé.</p>
+          <p className="font-poppins">Vivendo a missão com propósito e fé.</p>
         </div>
         <div>
-          <h4 className="font-semibold mb-3">Links</h4>
-          <div className="flex flex-col gap-2">
+          <h4 className="font-semibold font-poppins mb-3">Links</h4>
+          <div className="flex flex-col gap-2 font-poppins">
             <a href="#inicio" className="hover:text-accent transition">
               Início
             </a>
             <a href="#sobre" className="hover:text-accent transition">
               Sobre
+            </a>
+            <a href="#congregacoes" className="hover:text-accent transition">
+              Congregações
             </a>
             <a href="#eventos" className="hover:text-accent transition">
               Eventos
@@ -26,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h4 className="font-semibold mb-3">Redes Sociais</h4>
+          <h4 className="font-semibold font-poppins mb-3">Redes Sociais</h4>
           <div className="flex justify-center gap-4 text-2xl">
             <a
               href="#"
@@ -52,7 +55,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-sm opacity-70">
+      <p className="text-sm opacity-70 font-poppins">
         © 2025 Missão Esperança — Todos os direitos reservados.
       </p>
     </footer>

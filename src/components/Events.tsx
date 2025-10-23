@@ -23,9 +23,9 @@ const Events = () => {
   ];
 
   return (
-    <section id="eventos" className="py-28 bg-secondary text-center">
+    <section id="eventos" className="py-20 bg-secondary text-center">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-primary mb-12">
+        <h2 className="text-4xl font-playfair font-bold text-primary mb-12">
           Próximos Cultos e Eventos
         </h2>
         <div className="grid md:grid-cols-3 gap-8">

@@ -29,9 +29,9 @@ const Ministries = () => {
   ];
 
   return (
-    <section id="ministerios" className="py-28 text-center bg-background">
+    <section id="ministerios" className="py-20 text-center bg-background">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-primary mb-12">
+        <h2 className="text-4xl font-playfair font-bold text-primary mb-12">
           Nossos Ministérios
         </h2>
         <div className="grid md:grid-cols-4 gap-8">

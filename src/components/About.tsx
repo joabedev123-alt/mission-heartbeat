@@ -2,9 +2,9 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const About = () => {
   return (
-    <section id="sobre" className="py-28 bg-secondary text-center">
+    <section id="sobre" className="py-20 bg-secondary text-center">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-primary mb-6">Quem Somos</h2>
+        <h2 className="text-4xl font-playfair font-bold text-primary mb-6">Quem Somos</h2>
         <p className="max-w-3xl mx-auto text-muted-foreground mb-16">
           Somos uma missão que atua em diferentes regiões do Brasil, conectando
           pessoas e comunidades através de ações sociais, cultos, eventos e
